@@ -17,7 +17,6 @@ module.exports = {
         {
             files: [
                 "lib/configs.js",
-                "lib/foreign-rules/ts.js",
                 "lib/processors.js",
                 "lib/rules.js",
             ],
