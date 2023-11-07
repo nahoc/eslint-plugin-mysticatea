@@ -11,7 +11,7 @@ module.exports = {
         {
             files: ["lib/utils.js", "scripts/*.js"],
             rules: {
-                "@eslint-community/mysticatea/node/no-sync": "off",
+                "node/no-sync": "off",
             },
         },
         {
@@ -22,7 +22,7 @@ module.exports = {
                 "lib/rules.js",
             ],
             rules: {
-                "@eslint-community/mysticatea/node/global-require": "off",
+                "node/global-require": "off",
             },
         },
     ],
